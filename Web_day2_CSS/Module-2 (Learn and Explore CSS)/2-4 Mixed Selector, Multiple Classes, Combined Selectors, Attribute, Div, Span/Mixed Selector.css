@@ -25,6 +25,11 @@ main {
 #fitfh-line-css{
     font-weight: bolder;
 }
+input[type="password"]{
+    background-color: #f0e68c;
+    color: #a12c2c;
+
+}
 footer {
     background-color: #333;
     color: white;
