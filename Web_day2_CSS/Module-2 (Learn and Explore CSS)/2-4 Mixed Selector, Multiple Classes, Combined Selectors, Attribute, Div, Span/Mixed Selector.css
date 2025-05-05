@@ -16,6 +16,15 @@ header {
 main {
     padding: 20px;
 }
+.mixed-selector-example{
+    background-color: antiquewhite;
+}
+.same{
+    background-color: #f0e68c;
+}
+#fitfh-line-css{
+    font-weight: bolder;
+}
 footer {
     background-color: #333;
     color: white;
