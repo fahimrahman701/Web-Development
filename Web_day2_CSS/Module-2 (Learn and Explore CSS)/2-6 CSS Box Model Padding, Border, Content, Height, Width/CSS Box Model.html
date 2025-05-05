@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS Box Model</h1>
+        <p>Learn about the CSS Box Model, including padding, border, content, height, and width.</p>
+    </header>
+
+    <main>
+        <section id="box-model">
+            <h2>Understanding the Box Model</h2>
+            <p>The CSS Box Model describes the rectangular boxes generated for elements in the document tree and consists of:</p>
+            <ul>
+                <li><strong>Content:</strong> The actual content of the box, where text and images appear.</li>
+                <li><strong>Padding:</strong> The space between the content and the border.</li>
+                <li><strong>Border:</strong> A line surrounding the padding (if any) and content.</li>
+                <li><strong>Margin:</strong> The space outside the border, separating the element from others.</li>
+            </ul>
+        </section>
+
+        <section id="example">
+            <h3>Box Model Example</h3>
+            <div style="width: 300px; height: 200px; padding: 20px; border: 5px solid black; margin: 10px;">
+                This is a box model example.
+            </div>
+        </section>
+
+        <section id="explore">
+            <h3>Explore More</h3>
+            <p>Experiment with different values for padding, border, and margin to see how they affect the layout.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CSS Box Model Tutorial</p>
+        <p>For more information, visit <a href="https://www.w3schools.com/css/css_boxmodel.asp">W3Schools</a>.</p>
+    </footer>
+</body>
+</html>
