@@ -51,6 +51,28 @@
         a:hover {
             text-decoration: underline;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+        @media (max-width: 600px) {
+            img {
+                width: 100%;
+            }
+        }
+        @media (max-width: 768px) {
+            main {
+                padding: 10px;
+            }
+            section {
+                padding: 15px;
+            }
+        }
+        
     </style>
 </head>
 <body>
@@ -95,6 +117,11 @@
                 <li>Padding</li>
                 <li>Height and Width</li>
             </ol>
+        </section>
+
+        <section id="visualization">
+            <h3>Box Model Visualization</h3>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png" alt="">
         </section>
 
         <section>
