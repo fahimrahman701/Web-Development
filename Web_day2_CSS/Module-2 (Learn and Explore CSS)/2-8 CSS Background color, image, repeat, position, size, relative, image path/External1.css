@@ -1,11 +1,27 @@
 /* External1.css */
+
+/* Universal selector to apply styles to all elements on the page */ 
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 /* This is the header section of the page. It contains the title and a brief description. */
+.header {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Padding around the text */
+    border-radius: 3px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
 .box {
     background-color: lightblue;
     margin: 20px auto;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 
