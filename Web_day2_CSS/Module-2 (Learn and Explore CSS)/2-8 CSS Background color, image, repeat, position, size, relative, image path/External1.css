@@ -7,9 +7,14 @@
 
 
 /* This is the header section of the page. It contains the title and a brief description. */
-.header {
-    background-color: #333; /* Dark background color */
-    color: white; /* White text color */
+
+
+
+.header1 {
+    background-image: url("Images/pexels-pixabay-220182.jpg");
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the image */
+    color: rgb(47, 41, 42); /* Text color */
     text-align: center; /* Centered text */
     padding: 20px; /* Padding around the text */
     border-radius: 3px; /* Rounded corners */
