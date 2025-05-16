@@ -12,10 +12,10 @@
 
 .header1 {
     background-image: url("Images/pexels-pixabay-220182.jpg");
-    background-size: cover; /* Cover the entire header area */
+    background-size: 200px; /* Cover the entire header area */
     background-position: center; /* Center the image */
     color: rgb(47, 41, 42); /* Text color */
-    text-align: center; /* Centered text */
+    text-align: center; /* Centered text */ 
     padding: 20px; /* Padding around the text */
     border-radius: 3px; /* Rounded corners */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
@@ -27,6 +27,8 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
     padding: 5px 10px;
+    border: 3px solid #000; /* Border color */
+    width: 80%; /* Width of the box */
 }
 
 
