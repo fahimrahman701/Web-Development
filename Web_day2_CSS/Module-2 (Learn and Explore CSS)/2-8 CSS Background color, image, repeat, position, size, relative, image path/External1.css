@@ -1,0 +1,20 @@
+/* External1.css */
+/* This is the header section of the page. It contains the title and a brief description. */
+.box {
+    background-color: lightblue;
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+
+footer{
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
