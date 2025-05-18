@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Exile&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Underdog&display=swap');
+
+* {
+    font-family: "Ancizar Serif", serif;
+}
+
+.audio-player{
+    width: 20%;
+    height: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
