@@ -9,8 +9,7 @@
 <body>
     <!-- This is the header section of the blog -->
     <header>
-        <h1>My Blog</h1>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#post1">Home</a></li>
                 <li><a href="#post2">Blogs </a></li>
@@ -22,7 +21,7 @@
 
     <!-- This is the main content area of the blog -->
     <main>
-        <section id="post1">
+        <!-- <section id="post1">
             <h2>Post 1</h2>
             <p>This is the content of post 1.</p>
         </section>
@@ -33,14 +32,52 @@
         <section id="post3">
             <h2>Post 3</h2>
             <p>This is the content of post 3.</p>
-        </section>
+        </section> -->
+
+        <article>
+            <header>
+                <h2 id="post1">My Trip to Mountains was charming</h2>
+                <p>This is the content of post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Published on: <time datetime="2025-05-19">May 19, 2025</time></p>
+            </header>
+
+            <figure>
+                <img id="post1-image" src="../4-2 Explore HTML5 nav, main, header, footer, section, article, time/Images/Night Sky.jpeg" alt="Mountains" width="400" height="250">
+                <figcaption style="text-align: center;">The night sky is beautiful.</figcaption>
+            </figure>
+
+            <section>
+                <h3>My Experience</h3>
+                <p>During my trip, I experienced breathtaking views and serene landscapes. The mountains were majestic, and the air was fresh and invigorating.</p>
+                <p>The beautiful night sky was filled with countless stars, creating a mesmerizing view. The calmness and clarity of the night made stargazing an unforgettable experience.</p>
+            </section>
+
+            <section>
+                <h3>Trip Planning</h3>
+                <p>When planning a trip to the mountains, it's essential to consider the best time to visit. The ideal months are typically late spring and early fall when the weather is mild, and the scenery is breathtaking.</p>
+                <p>Additionally, packing the right gear, such as sturdy hiking boots and warm clothing, can significantly enhance your experience.</p>
+            </section>
+
+            <section>
+                <h3>Activities to Enjoy</h3>
+                <p>There are numerous activities to enjoy in the mountains, including hiking, camping, and photography. Each activity offers a unique way to connect with nature and appreciate the beauty of the surroundings.</p>
+                <p>Whether you're an adventure seeker or someone who enjoys peaceful walks, the mountains have something for everyone.</p>
+            </section>
+
+            <section>
+                <h3>Conclusion</h3>
+                <p>In conclusion, the night sky's beauty left a lasting impression on me. Its vastness and brilliance reminded me of the wonders of nature and the importance of taking time to appreciate the world around us.</p>
+            </section>
+        </article>
     </main>
     <!-- End of main content area -->
 
     <!-- This is the footer section of the blog -->
     <footer>
-        <p>&copy; 2025 My Blog. All rights reserved.</p>
-        <p>Contact: <a href="mailto:rahman569261@gmail.com">rahman569261@gmail.com</a></p>
+        <small>
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+            <p>Contact: <a href="mailto:rahman569261@gmail.com">rahman569261@gmail.com</a></p>
+        </small>
     </footer>
     <!-- End of footer section -->
 </body>

@@ -1,16 +1,47 @@
-nav >ul >li {
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+nav > ul > li {
+    /* 
+        The 'display: inline;' property makes the element behave like an inline element, 
+        meaning it will not start on a new line and will only take up as much width as necessary. 
+        This is useful when you want elements to appear side by side within a line, 
+        such as links or buttons, without breaking the flow of surrounding content.
+    */
     display: inline;
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 80px;
 }
 
 nav li > a {
     text-decoration: none;
+    font-size: 25px;
 }
 
 nav > ul > li:hover {
     background-color: #f1f1f1;
-    
     padding: 5px;
     border-radius: 5px;
+}
+
+#post1-image{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
 }
