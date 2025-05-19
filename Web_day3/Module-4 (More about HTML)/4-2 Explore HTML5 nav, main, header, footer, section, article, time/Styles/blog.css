@@ -1,0 +1,16 @@
+nav >ul >li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav li > a {
+    text-decoration: none;
+}
+
+nav > ul > li:hover {
+    background-color: #f1f1f1;
+    
+    padding: 5px;
+    border-radius: 5px;
+}
