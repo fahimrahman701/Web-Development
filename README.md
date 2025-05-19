@@ -1,7 +1,7 @@
 # 🌐 Web Development Projects by Md. Fahimur Rahman
 
 Welcome to my web development journey! 🚀  
-I'm currently learning full-stack web development through the **Programming Hero** course.  
+I'm currently learning **full-stack web development**.  
 Here, I upload my daily practice, assignments, and project work to keep track of my progress and improve consistently.
 
 ---
