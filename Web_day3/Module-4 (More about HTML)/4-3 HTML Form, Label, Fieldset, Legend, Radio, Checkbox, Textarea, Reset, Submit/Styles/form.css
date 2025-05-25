@@ -1,0 +1,10 @@
+article {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 20px;
+    margin-right: 0%;
+}
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
