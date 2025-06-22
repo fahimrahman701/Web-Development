@@ -8,7 +8,9 @@ header{
 table{
     width: 40%;
     border:1px solid black;
-   
+
+    /* Merges table borders into one */
+    /* border-collapse: collapse;  */
 }
 
 th, td {
